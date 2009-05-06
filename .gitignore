@@ -1,0 +1,9 @@
+.idea
+*.old
+.DS_Store
+*.log
+tmp/*
+config/database.yml
+.svn
+.svn/*
+config/mongrel_cluster.yml

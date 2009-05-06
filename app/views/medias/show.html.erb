@@ -1,0 +1,18 @@
+<p>
+  <b>Name:</b>
+  <%=h @media.name %>
+</p>
+
+<p>
+  <b>File:</b>
+  <%=h @media.file %>
+</p>
+
+<p>
+  <b>Type:</b>
+  <%=h @media.type %>
+</p>
+
+
+<%= link_to 'Edit', edit_media_path(@media) %> |
+<%= link_to 'Back', medias_path %>

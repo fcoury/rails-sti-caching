@@ -1,0 +1,9 @@
+<h1 id="music">Music</h1>
+
+<ul>
+  <% for m in @musics %>
+  <li><%= m.name %> - <%= m.file %></li>
+  <% end %>
+</ul>
+
+<pre><%=h @debug.join("\n") %></pre>
